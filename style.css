@@ -1,6 +1,5 @@
-div{
+.container{
     text-align : center ;
-    display : block ;
     margin: 100px auto ;
     width : 500px
 }
@@ -19,9 +18,12 @@ input{
     border: 1px solid grey;
 }
 
+.btn{
+    text-align: center;
+}
 
 button{
-    margin-top: 10px;
+    margin: 10px 5px 5px ;
     padding: 8px 16px;
     border-radius: 5px;
     background-color: rgb(227, 217, 217);
